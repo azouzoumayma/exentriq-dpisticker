@@ -1,0 +1,53 @@
+.dropzone_area {
+  /* text-align: center; */
+  margin-top: 20vh;
+}
+.dropzone_area > div:first-child {
+  width: 50% !important;
+  height: 300px !important;
+  border-color: #DCDCDC !important;
+  text-align: center;
+  cursor: pointer;
+  margin: auto !important;
+}
+
+.upload-icon {
+  font-size: 8em;
+  color: #DCDCDC;
+}
+
+.dropzone_area > div:first-child > i > svg {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+}
+
+.image-wrapper {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.image-wrapper img {
+  width: 100%;
+}
+
+.image-wrapper .remove-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 100;
+  color: #DCDCDC;
+}
+.preview-button-wrapper {
+  text-align: center;
+  margin-top: 5vh;
+}
